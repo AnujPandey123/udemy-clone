@@ -1,4 +1,4 @@
-# A udemy clone using ReactJs
+# A udemy clone using ReactJs with payment section
 
 
 
