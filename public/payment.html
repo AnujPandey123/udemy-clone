@@ -205,6 +205,43 @@
             height: 100%;
             background: rgba(0, 0, 0, 0.3);
         }
+         @media only screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .left, .center, .right {
+            width: 100%;
+            border: none;
+        }
+
+        .center {
+            border: none;
+        }
+
+        .methods div::after {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            width: 95%;
+        }
+
+        .methods div {
+            font-size: 14px;
+        }
+
+        .center a img {
+            width: 100%;
+        }
+
+        .card-details {
+            padding: 20px;
+        }
+    }
     </style>
 </head>
 
